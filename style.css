@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(63, 168, 63);
+    color: rgb(63, 168, 144);
 }
 
 #beranda {
@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 #button-moreInfo:hover {
-    background-color: rgb(63, 168, 63);
+    background-color: rgb(63, 168, 144);
     color: white;
 }
 
@@ -93,11 +93,71 @@ nav a:hover {
 }
 
 #button-contactUs:hover {
-    background-color: rgb(63, 168, 63);
+    background-color: rgb(63, 168, 144);
     color: white;
 }
 
 #img-1 {
     width: 500px;
     height: auto;
+}
+
+#page2 {
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    line-height: 2;
+}
+
+#h1-2 {
+    font-weight: 600;
+    width: 550px;
+    font-size: 50px;
+    line-height: 1.15;
+}
+
+#h2-2 {
+    color: gray;
+    font-weight: 300;
+    width: 530px;
+    line-height: 1.15;
+}
+
+#number-2 {
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: right;
+}
+
+#one-2 {
+    margin-right: 75px;
+}
+
+#two-2 {
+    margin-right: 75px;
+}
+
+#garis {
+    position: absolute;
+    background-color: rgb(105, 221, 202);
+    height: 10px;
+    width: 100px;
+    top: 430px;
+}
+
+#img-2 {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+
+#page2, #img-2 {
+    display: inline-block;
+}
+
+#about {
+    margin-bottom: 650px;
 }
